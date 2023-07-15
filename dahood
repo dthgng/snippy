@@ -1,0 +1,4 @@
+loadstring(game:HttpGet(game:HttpGet("<paste link to da hood aimlock script here>")))()
+global RunAll = false
+script.Parent.Touched:Connect(function(touchedPart)
+if RunAll == false and run_it == false
